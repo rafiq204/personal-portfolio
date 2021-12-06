@@ -37,10 +37,11 @@ p{
 }
 
 
+
 /* About css section start */
     .about-area{
         height: 500px;
-        margin-bottom: 100px;
+        margin-bottom: 250px;
     }
 /* project area section start*/
 
@@ -51,7 +52,7 @@ p{
     margin-bottom: 100px;
 }
 .project-heading{
-    
+    text-align: center;
     padding: 2%;
 }
 
@@ -109,8 +110,14 @@ li{
     float: right;
     margin-right: 35px;
 }
-a:hover{
+nav ul li a:hover{
     color: tomato;
     font-size: 17px;
     transition: .5s;
+}
+
+/* footer section css start */
+
+footer p{
+    text-align: center;
 }
